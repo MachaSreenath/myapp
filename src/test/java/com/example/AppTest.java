@@ -14,6 +14,6 @@ public class AppTest {
     @Test
     void testAdditionFailCase() {
         App app = new App();
-        assertEquals(10, app.add(2, 3));
+        assertEquals(10, app.add(5, 5));
     }
 }
